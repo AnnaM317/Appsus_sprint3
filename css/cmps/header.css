@@ -1,0 +1,53 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2b558c;
+  height: 10vh;
+  text-align: center;
+  padding: 0 30px;
+  color: hsl(200, 53%, 80%);
+  box-shadow: 0px 1px 5px black;
+}
+
+.header-logo {
+  gap: 10px;
+  cursor: pointer;
+}
+
+.header-logo img {
+  max-width: 55px;
+  border-radius: 10px;
+}
+
+.dashboard img {
+  width: 50px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background-color 0.2s;
+}
+
+.naviagtion {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+
+  position: absolute;
+  right: 35px;
+  top: 50px;
+  width: 130px;
+  font-size: 45px;
+  padding: 5px;
+  background-color: hsl(214deg 45% 49%);
+  border-radius: 5px;
+}
+
+.dashboard img:hover {
+  background-color: rgb(113, 184, 243);
+}
+
+.router-link-exact-active {
+  font-weight: bold;
+  color: rgb(113, 184, 243);
+}

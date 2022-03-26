@@ -1,0 +1,8 @@
+.img-input img {
+  margin-block-start: 10px;
+  max-width: 280px;
+  min-width: 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 5px 1px rgb(99, 99, 99);
+  cursor: pointer;
+}

@@ -1,0 +1,115 @@
+.note-preview {
+  max-width: 300px;
+  background-color: bisque;
+  padding: 10px;
+  gap: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px black;
+}
+
+.note-preview p {
+  white-space: pre-wrap;
+}
+
+.text-input {
+  overflow-wrap: break-word;
+}
+
+.note-tools {
+  position: relative;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.note-tools span:first-child {
+  padding-inline-end: 30px;
+}
+
+.note-tools .last-one {
+  padding-inline-start: 17px;
+}
+
+.note-tools span {
+  padding-inline-end: 5px;
+}
+
+.note-tools i {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+}
+.note-tools i:hover {
+  box-shadow: 0px 0px 3px black;
+  cursor: pointer;
+}
+
+.pallete {
+  position: absolute;
+  left: 80px;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 110px;
+  gap: 5px;
+  background-color: hsl(214, 53%, 90%);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.pallete-color {
+  width: 30px;
+  height: 30px;
+}
+.color {
+  border-radius: 50%;
+  box-shadow: 0 0 2px black;
+}
+.color:hover {
+  cursor: pointer;
+}
+
+.importent {
+  color: rgb(255, 136, 0);
+  /* background-color: rgb(255, 169, 8); */
+}
+
+.color1 {
+  background-color: hsl(214, 53%, 76%);
+}
+.color2 {
+  background-color: hsl(190, 53%, 76%);
+}
+.color3 {
+  background-color: hsl(0, 53%, 76%);
+}
+.color4 {
+  background-color: hsl(270, 53%, 76%);
+}
+.color5 {
+  background-color: hsl(130, 53%, 76%);
+}
+.color6 {
+  background-color: hsl(50, 53%, 76%);
+}
+
+.tool-color1 {
+  background-color: hsl(214, 53%, 86%);
+}
+.tool-color2 {
+  background-color: hsl(190, 53%, 86%);
+}
+.tool-color3 {
+  background-color: hsl(0, 53%, 86%);
+}
+.tool-color4 {
+  background-color: hsl(270, 53%, 86%);
+}
+.tool-color5 {
+  background-color: hsl(130, 53%, 86%);
+}
+.tool-color6 {
+  background-color: hsl(50, 53%, 86%);
+}

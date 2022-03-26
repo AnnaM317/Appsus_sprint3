@@ -1,0 +1,33 @@
+.notes-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-rows: repeat(auto-fill, 10px);
+  grid-auto-flow: dense;
+  justify-content: center;
+  gap: 15px;
+  padding-block-end: 30px;
+}
+
+.smallest-note {
+  grid-row: span 5;
+}
+
+.small-note {
+  grid-row: span 10;
+}
+
+.normal-note {
+  grid-row: span 15;
+}
+
+.medium-note {
+  grid-row: span 20;
+}
+
+.large-note {
+  grid-row: span 25;
+}
+
+.xl-note {
+  grid-row: span 30;
+}
